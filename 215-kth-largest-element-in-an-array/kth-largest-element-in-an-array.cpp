@@ -5,6 +5,7 @@ public:
         // Another approach is to use Divide and Conquer method !! (DAA)
         // By default priority queues are max-heap 
         // Syntax: prioriry_queue<datatype, container, comparing function> name (minheap)
+        // Time complexity: O(nlog(k))
         priority_queue<int, vector<int>, greater<int>> pq;
         for(int num: nums){
             pq.push(num);
