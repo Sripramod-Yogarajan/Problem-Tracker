@@ -16,7 +16,6 @@ public:
 
         vector<int> res(n);
         for(int i = 0;i < n;i ++){
-            cout << prefix[i] << " " << suffix[i] << endl;
             res[i] = prefix[i] * suffix[i];
         }
 
