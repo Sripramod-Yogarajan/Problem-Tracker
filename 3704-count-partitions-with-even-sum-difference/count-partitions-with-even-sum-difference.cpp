@@ -10,5 +10,9 @@ public:
             if((sum - total)%2 == 0) count ++;
         }
         return count;
+        /* 
+            Simpilified Approach: If total is even then return nums.size()-1
+            else return 0
+        */
     }
 };
